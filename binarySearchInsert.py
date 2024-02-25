@@ -13,7 +13,7 @@ class Solution:
         return left
     
 # recursive
-def binary_search(left, right):
+""" def binary_search(left, right):
         if left > right:
             return left
         
@@ -25,4 +25,4 @@ def binary_search(left, right):
         else:
             return binary_search(left, mid - 1)
     
-    return binary_search(0, len(nums) - 1)
+    return binary_search(0, len(nums) - 1) """
